@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="96">
+    <author>Jos</author>
+    <version>0.0.1.0</version>
+    <title>
+        <en>Direct Drill Addon</en>
+    </title>
+    <description>
+        <en><![CDATA[Enables direct drill for all seeders and planters.]]></en>
+    </description>
+    <iconFilename>icon_DirectDrillAddon.dds</iconFilename>
+    <multiplayer supported="true" />
+    <extraSourceFiles>
+        <sourceFile filename="src/main.lua" />
+    </extraSourceFiles>
+</modDesc>
