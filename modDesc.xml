@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="96">
     <author>Jos</author>
-    <version>0.0.1.0</version>
+    <version>1.0.0.0</version>
     <title>
         <en>Direct Drill Addon</en>
+        <en>Direktsaat Addon</en>
     </title>
     <description>
-        <en><![CDATA[Enables direct drill for all seeders and planters.]]></en>
+        <en><![CDATA[Allows direct drilling for all seeders and planters. Feature can be enabled or disabled using CTRL + D.]]></en>
+        <de><![CDATA[Ermöglicht die Direktsaat für alle Sä- und Pflanzmaschinen. Die Funktion kann mit STRG + D aktiviert oder deaktiviert werden.]]></de>
     </description>
     <iconFilename>icon_DirectDrillAddon.dds</iconFilename>
     <multiplayer supported="true" />
+    <l10n filenamePrefix="l10n/l10n"/>
     <extraSourceFiles>
         <sourceFile filename="src/main.lua" />
     </extraSourceFiles>
+    <actions>
+        <action name="TOGGLE_DIRECT_DRILLING" axisType="HALF"/>
+    </actions>
+    <inputBinding>
+        <actionBinding action="TOGGLE_DIRECT_DRILLING">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_d"/>
+            <binding device="GAMEPAD_DEFAULT" input="BUTTON_5 BUTTON_4"/>
+        </actionBinding>
+    </inputBinding>
 </modDesc>

@@ -1,0 +1,7 @@
+<l10n>
+    <elements>
+        <e k="input_TOGGLE_DIRECT_DRILLING" v="Direktsaat umschalten" />
+        <e k="action_toggleDirectPlantingPos" v="Aktivier Direktsaat" />
+        <e k="action_toggleDirectPlantingNeg" v="Deaktivier Direktsaat" />
+    </elements>
+</l10n>

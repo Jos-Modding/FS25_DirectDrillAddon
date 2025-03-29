@@ -1,0 +1,7 @@
+<l10n>
+    <elements>
+        <e k="input_TOGGLE_DIRECT_DRILLING" v="Toggle Direct Drilling" />
+        <e k="action_toggleDirectPlantingPos" v="Enable Direct Drilling" />
+        <e k="action_toggleDirectPlantingNeg" v="Disable Direct Drilling" />
+    </elements>
+</l10n>
