@@ -1,6 +1,6 @@
 # Direct Drill Addon
 
-Enables direct drill for all seeders and planters.
+Allows direct drilling for all seeders and planters. Feature can be enabled or disabled using CTRL + D.
 
 ## Requirements
 
