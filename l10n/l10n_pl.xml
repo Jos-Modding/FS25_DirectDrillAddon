@@ -1,0 +1,7 @@
+<l10n>
+    <elements>
+        <e k="input_TOGGLE_DIRECT_DRILLING" v="Przełączanie siewu bezpośredniego" />
+        <e k="action_toggleDirectPlantingPos" v="Włącz siew bezpośredni" />
+        <e k="action_toggleDirectPlantingNeg" v="Wyłącz siew bezpośredni" />
+    </elements>
+</l10n>
